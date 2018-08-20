@@ -50,7 +50,7 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
-def move(board,index,player_charcter)
+def move(board,index,player_charcter = "X")
 
   @board[index] = player_charcter
 end
